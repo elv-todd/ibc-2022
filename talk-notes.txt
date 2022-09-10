@@ -3,19 +3,21 @@ Intro
  - the section is generally for application developers
  - we're goint to focus on our libraries and open source applications
 
-Frontend apps
- read the bullets
+Agenda
+ [[read]]
 
 Frontend apps
- - see it
- - open source -- use it, reference it, 
- - eluvio live -- you claimed NFT with it; events, live streams, premiersm, drops
- - eluvio media wallet -- buy/sell.manage
+ [[read bullets]]
+
+Frontend apps
+ - open source -- please take a look!
+ - eluvio live -- you claimed NFT with it; events, live streams, premiers, drops
+ - eluvio media wallet -- buy/sell/manage
  - fabric browser - management workhorse
  - asset manager - more detailed and highly configurable metadata (files, assets), spec language
    -- no backend, DB, CMS, cloud storage, CDN
- - video editor - temporal metadata tags.  ML: models for video/audio :: detecting celebrity, object/scene, OCR, speech-to-text
- - embed - links / embeddable iframes.  player as library, play content from the fabric (HLS or DASH)
+ - video editor - temporal metadata tags.  ML: models for video/audio :: detecting celebrity, object, scene, landmark, OCR, speech-to-text
+ - embed - links / embeddable iframes.  player as library component. play content from the fabric (HLS or DASH)
 
 Eluvio Frontend Libraries
  - API libraries
@@ -23,46 +25,47 @@ Eluvio Frontend Libraries
  - wallet client - integrate media wallet into your sites
 
 elv-client-js
- - [read it]
- - docs from github page  -> show it
+ - just about all CF functions
+ - [[read it]]
+ - [[click docs]]
 
 elv-wallet-client
  - hopefully you've seen varations on it
  - control
  - retrieve: what items exist, what's available in markets
- - docs from github page  -> show it
- - [[ADD MORE]]
+ - [[read it]]
+ - [[click docs]]
 
 Elvio Wallet Client - Background
  - mask + MS... rita, black-eyed... 
  - integrated AND stand-alone.  marketplace.
 
 [IMAGE] Elvio Wallet Client Background [IMAGE]
- - message-passing client between parents and children/wallet
+ - talk between App (ELuvio Live) and Wallet
+ - message-passing client between parents and children
  - cross-origin iframes are sandboxed (parent/child wall)
  - this addresses this
- - [consider sample site or something]
 
 Elvio Wallet Client -- Integrating the Wallet UI
- - what can you do?  spectrum; eg, sell NFTs:
-   -- easiest - just use Eluvio Live - no code required, highly recommended (maskverse, MS)
-   -- OR -  have your own site, no redirecting away
-     -- easiest - drop in an iframe! specific pages, deep links, etc (control it)
+ - what can you do?  spectrum
+   -- no code only data, easiest - just use Eluvio Live - no code required, highly recommended (maskverse, MS)
+   -- OR have your own site, no redirecting users away
+     -- then two approaches
+     -- 1, easiest - drop in an iframe! deep link to specific pagess, etc (control it)
 
 [IMAGE] Eluvio Wallet Client - Integrating the Wallet UI [IMAGE]
  - white = parent
  - blue = wallet.contentfabric.io
- - [consider sample site or something]
 
 Eluvio Wallet Client - Building your own UI
- - OR, build it yourself!
+ - OR, 2. build it yourself!
  - [read it]
 
-
 [IMAGE] Eluvio Wallet Client - Building your own UI [IMAGE]
- - pull data directly
+ - shows pulling data directly
  - show your own purchase button providers:
    -- CC/stripe, crypto via coinbase, USDC on solana via phantom, wallet balance
+
 
 DEMOS
  - iframe separated by line
