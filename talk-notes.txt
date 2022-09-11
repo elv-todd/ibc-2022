@@ -36,11 +36,12 @@ elv-wallet-client
  - [[read it]]
  - [[click docs]]
 
-Elvio Wallet Client - Background
- - mask + MS... rita, black-eyed... 
- - integrated AND stand-alone.  marketplace.
 
-[IMAGE] Elvio Wallet Client Background [IMAGE]
+Eluvio Wallet Client Features
+ Maskverse and MS done this way
+ [[read]]
+
+[IMAGE] Elvio Wallet Client CORS [IMAGE]
  - talk between App (ELuvio Live) and Wallet
  - message-passing client between parents and children
  - cross-origin iframes are sandboxed (parent/child wall)
@@ -59,6 +60,7 @@ Elvio Wallet Client -- Integrating the Wallet UI
 
 Eluvio Wallet Client - Building your own UI
  - OR, 2. build it yourself!
+ - WWE Moonsault done this way
  - [read it]
 
 [IMAGE] Eluvio Wallet Client - Building your own UI [IMAGE]
